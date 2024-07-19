@@ -1,0 +1,1249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(211, 208, 204);
+}
+.navber{
+    width: 98.5%;
+    
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    position: fixed;
+    z-index: 20000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.242);
+
+}
+.navber .links{
+    display: flex;
+     
+     align-items: center;
+     width: 80%;
+    margin: auto;
+    
+    
+}
+.navber .links .links-3{
+       
+       
+      
+        display: flex;
+        align-items: center;
+        width: 250px;
+        border-left:1px solid rgb(88, 88, 88) ;
+        padding-left: 10px;
+        margin-left: 60px;
+}
+.navber .links .links-3 p {
+    margin-left: 20px;
+     
+    color: rgb(250, 80, 24);
+    font-size: 15px;
+}
+.navber .links .links-3 i{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:25px;
+    
+}
+.navber .links .links-3 p a{
+    
+    font-size: 15px;
+    margin-left: 2px;
+    text-align: center;
+     color: #000;
+}
+.navber .links .links-3 p a:hover{
+    color: #ae9d20;
+}
+
+
+
+
+.navber .links .links-2{
+    margin-left: 10px;
+    
+   
+}
+.navber .links .links-2 i{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:20px;
+    text-align: center;
+    color: #00000099;
+}
+.navber .links .links-2 i:hover{
+    color: #000;
+}
+.navber .links .links-2 a{
+    text-decoration: none;
+    font-size: 9px;
+   letter-spacing: 1.5px;
+    margin-left: 2px;
+   color: #000000a8;
+     
+}
+.navber .links .links-2 a:hover{
+color: #000;
+
+}
+.navber .links .links-2 a:focus{
+   border-bottom: 2px solid black; 
+   padding-bottom: 2px;
+}
+
+
+    .links .links-1 input{
+     padding: 10px;
+     width: 250px;
+     border-radius: 6px;
+     background-color: rgb(203, 203, 203);
+     border: none;
+}
+.links .links-1 .imges{
+  
+ margin-right: 10px;
+  
+ border-radius: 3px;
+}
+.links-1{
+    display: flex;
+    padding-left: 10px;
+ 
+}
+i{
+    display: flex;
+}
+ 
+ 
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.container{
+    width: 80%;
+    
+    padding-top: 60px;
+     
+    margin: auto;
+    display: flex;
+     
+}
+.container .containerss .col-1{
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+      margin-left: 10px;
+      margin-top: 19px;
+
+}
+.bac{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(89, 130, 129);
+    border-radius: 20px 20px 0 0;
+    
+}
+.container .containerss .col-1 img{
+    border-radius: 50%;
+    margin-left:80px ;
+  margin-bottom: 30px;
+  position: absolute;
+top:  100px;
+}
+
+.container .containerss .col-1 .text-1{
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.container .containerss .col-1 .text-1 p{
+    font-size: 14px;
+    padding: 10px 0 13px 0;
+    color: #00000082;
+}
+.container .containerss .col-1 .link {
+    padding: 15px;
+}
+.container .containerss .col-1 .link a{
+    display: block;
+    text-decoration: none;
+    color: #00000087;
+    padding: 3px;
+    font-size: 14px;
+}
+.container .containerss .col-1 .link a span{
+     float: right;
+     color:blue;
+}
+.container .containerss .col-1 .link a:hover{
+    background-color: rgba(222, 222, 222, 0.923);
+    
+}
+.container .containerss .col-1 .link-2{
+    padding: 15px;
+}
+.container .containerss .col-1 .link-2 a{
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.container .containerss .col-1 .link-2 p{
+    font-size: 15px;
+    color: #00000093;
+}
+.container .containerss .col-1 .link-2:hover{
+    background-color: rgba(222, 222, 222, 0.923);
+     
+    
+}
+.container .containerss .col-1 .link-2 a:hover{
+    color: rgb(18, 18, 238);
+}
+.container .containerss .col-1 .link-3{
+    padding: 15px;
+    display: flex;
+}
+.container .containerss .col-1 .link-3 i{
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 6px;
+    
+}
+.container .containerss .col-1 .link-3 p{
+      padding-left: 15px;
+}
+.container .containerss .col-1 .link-3:hover{
+    background-color:rgba(222, 222, 222, 0.923) ;
+    border-radius: 0 0 20px 20px;
+}
+/* ///////////////////////////////////////// */
+.container .containerss .col-2{
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+      margin-left: 10px;
+      margin-top: 19px;
+}
+.container .containerss .col-2 a{
+     display: block;
+     padding: 10px 15px;
+     text-decoration: none;
+}
+.container .containerss .col-2 a span{
+    float: right;
+    font-size: 25px;
+}
+.container .containerss .col-2 a:hover{
+    text-decoration: underline;
+}
+.container .containerss .col-2 .link-1{
+    text-align: center;
+    padding: 13px;
+}
+.container .containerss .col-2 .link-1 h3 {
+    color: #00000082;
+
+}
+.container .containerss .col-2 .link-1:hover{
+    background-color: rgba(222, 222, 222, 0.923);
+    border-radius: 0 0 20px 20px;
+}
+/* ***************************************************************************** */
+.container-2{
+    width: 93%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 150px;
+      margin-left: 30px;
+      margin-top: 19px;
+ 
+}
+.container-3{
+    width: 93%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  
+      margin-left: 30px;
+      margin-top: 15px;
+
+}
+.ceter{
+    width: 100%;
+}
+.container-4{
+    width: 630px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  height: 350px;
+      margin: 19px;
+       
+
+}
+.container-2 .col-1 img {
+ border-radius: 50%;
+ 
+}
+.container-2 .col-1{
+    padding: 15px;
+    display: flex;
+}
+.container-2 .col-1 input{
+    width: 80%;
+    padding: 10px;
+      background-color: rgba(255, 251, 251, 0.437);
+     border-radius: 30px;
+      margin: 10px;
+}
+.container-2 .col-1 input:hover{
+    background-color: #00000045;
+}
+.container-2 .col-2 {
+    padding: 15px;
+    display: flex;
+}
+.container-2 .cols{
+   
+    width: 180px;
+}
+ 
+.container-2 .col-2 i{
+    padding-left: 57px;
+    padding-right: 13px;
+font-size: 20px;
+color: rgb(0, 123, 255);
+text-align: center;
+}
+.container-2 .col-2 i span{
+    color: #0000009e;
+    font-size: 12px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.container-2 .col-2 .cols:hover{
+    background-color: #00000026;
+    padding: 5px;
+    border-radius: 10%;
+   
+    
+}
+/* ---------------------------------------------------------------------- */
+ 
+.container-3 .col-1{
+    display: flex;
+    padding: 15px 15px 10px 15px;
+}
+.container-3 .col-1 img{
+width: 60px;
+border-radius: 50%;
+}
+.container-3 .col-1 .centr{
+    padding: 0 0 4px 15px;
+   
+    width: 100%;
+}
+.container-3 .col-1 .centr h2{
+    font-size: 18px;
+    
+}
+ 
+.container-3 .col-1 .centr h4{
+    color: #000000a4;
+}
+.container-3 .col-1 .centr p{
+    color: #000000a0;
+}
+.container-3 .col-1 .centr p span{
+    color: blue;
+    float: right;
+    font-size: 20px;
+}
+.container-3 .col-1 .centr p span:hover{
+    background-color: rgba(0, 0, 255, 0.341);
+    padding: 2px;
+    border-radius: 4px;
+}
+.container-3 .text-p{
+    padding: 0px 20px 10px 30px;
+    font-size: 15px;
+    color: #000000b4;
+    
+}
+.container-3 .imgess{
+    border-radius: 2px;
+    padding: 10px 0;
+    
+}
+ 
+
+.container-3 .col-2{
+    padding: 0px 0px 10px 15px;
+    display: flex;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.573);
+}
+.container-3 .col-2 p{
+    font-size: 14px;
+    padding-left: 3px;
+    color: #000000b2;
+   
+}
+.container-3 .col-2 p a{
+    text-decoration: none;
+}
+.container-3 .col-2 p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.container-3 .col-2 .col-3{
+   margin-left: 120px;
+}
+
+
+.container-3 .col-2 i{
+    padding-left: 57px;
+    padding-right: 13px;
+font-size: 20px;
+color: rgba(5, 5, 5, 0.619);
+text-align: center;
+}
+.container-3 .col-2 i span{
+    color: #0000009e;
+    font-size: 12px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.container-3 .col-2 .cols:hover{
+    background-color: #00000026;
+    
+    border-radius: 10px;
+     
+   
+    
+}
+.container-3 .col-2 .cols{
+    padding: 10px;
+   margin-top: 10px;
+    width: 160px;
+}
+.container-3 .col-2 .cols{
+    border: none;
+}
+
+.container-4 .cols{
+padding: 14px 15px;
+ 
+}
+.container-4 .col-2{
+    display: flex;
+     padding: 3px 0;
+     
+}
+.container-4 .col-1 h3{
+    padding: 0 0 20px 0;
+}
+.container-4 .col-2 img{
+    border-radius: 50%;
+    width: 60px;
+}
+.container-4 .col-2 .col-text{
+    padding-left: 10px;
+}
+.container-4 .col-2 .col-text p{
+    font-size: 14px;
+    color: #000000a8;
+}
+.container-4 button{
+    padding: 3px 10px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 10px;
+    
+    position: absolute;
+    /* top: 180px; */
+    font-size: 18px;
+    background-color: #fff;
+    
+    
+}
+.container-4 button:hover{
+    background-color: #00000038;
+}
+.container-4 .imges-right img{
+    border-radius: 20px;  
+}
+/* ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+ /* ////////////////////////////////////////////////// */
+.login-form{
+    position: fixed;
+    top: -120%;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+     
+}
+.login-form.active{
+    top: 0;
+}
+ 
+.login-form form{
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    width: 50rem;
+    height: 500px;
+}
+.login-form #form-close1{
+    position: absolute;
+    top: 7rem;
+    right: 23rem;
+    font-size: 2rem;
+    color: #040404b5;
+    cursor: pointer;
+}
+.login-form #form-close1:hover{
+    background-color: #0000006a;
+    padding: 5px;
+    border-radius: 30%;
+}
+
+/* ========================================================== */
+
+.login-form .col-1{
+    display: flex;
+}
+.login-form .col-1 img{
+    border-radius: 50%;
+
+}
+.login-form .col-1 .text{
+    padding: 20px 0 0 20px;
+}
+.login-form .col-1 .text span{
+    color: #00000095;
+}
+.login-form .col-2{
+    margin-top: 30px;
+}
+.login-form .col-2 input{
+    padding: 10px;
+ width: 500px;
+    border: none;
+    color: #00000066;
+    font-size: 20px;
+}
+.login-form .col-3{
+    display: flex;
+    margin-top: 250px;
+}
+.login-form .col-3 i{
+    padding-left: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.login-form .col-3{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.464);
+    padding: 0;
+
+}
+.login-form .col-4{
+    float: right;
+    padding: 20px;
+}
+ .login-form .col-4 i{
+padding-right: 15px;
+font-size: 20px;
+ }
+ .login-form .col-4 button{
+    padding: 2px;
+    border-radius: 10px;
+    width: 50px;
+ }
+ 
+/* ////////////////////////////////////////////////////////////// */
+/* ///////////////////////////// start js///////////////////////////////// */
+.login-form1{
+    position: absolute;
+     left: 0;
+ 
+    width: 100%;
+    background: #dfdddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    height: 1300px; 
+}
+ 
+.login-form1 .container-5{
+    width: 80%;
+   
+    padding-top: 80px;
+     height: 1000px;
+    margin: auto;
+    display: flex;
+    
+     margin-bottom: 300px;
+     
+}
+.login-form1 .container-5 .container-6{
+    width: 20%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: fixed;
+     
+}
+.login-form1 .container-5 .containers-1{
+   display: block;
+   width: 72%;
+   height: 600px;
+   margin-left: 340px;
+}
+ 
+ 
+.login-form1 .container-5 .container-6 .col-1 {
+   
+     color: #00000086;
+    
+
+}
+.login-form1 .container-5 .container-6 .col-1 h5{
+    color: #000000ca;
+    font-size: 18px;
+    padding: 20px 0 10px 20px;
+}
+.login-form1 .container-5 .container-6 .col-1 .x{
+    display: flex;
+    padding: 10px 0;
+     
+}
+
+.login-form1 .container-5 .container-6 .col-1 h4{
+    margin-left: 12px;
+    margin-left: 20px;
+}
+.login-form1 .container-5 .container-6 .col-1 span{
+    float: right;
+    margin-left: 30px;   
+} 
+.login-form1 .container-5 .container-6 .col-1 .x i{
+    font-size: 22px;
+    margin-left: 20px;
+}
+.login-form1 .container-5 .container-6 .col-1 .x:hover{
+     background-color: #0000002d;
+}
+/* ///////////////////////clos clos js/////////////////////////////// */
+.login-form1 .container-5 .container-7{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+     margin-bottom: 20px;
+}
+.login-form1 .container-5 .container-7 h3{
+    padding: 15px;
+align-items: center;
+    color: #0000008f;
+
+}
+.login-form1 .container-5 .container-7 h3 span{
+ float: right;
+ padding: 4px;
+  
+
+}
+.login-form1 .container-5 .container-7 span:hover{
+    background-color: #0000003c;
+    border-radius: 3px;
+    
+}
+/* /////////////////////////////////////////////// ///////////////////////////*/
+.login-form1 .container-5 .container-8{
+    width: 100%;
+    height: 1000px;
+    border-radius: 10px;
+    background-color: #ffffff;
+     margin-bottom: 20px;
+}
+.login-form1 .container-5 .container-8 .col-1 h3{
+    padding: 15px;
+align-items: center;
+    color: #0000008f;
+
+}
+.login-form1 .container-5 .container-8 .col-1 h3 span{
+ float: right;
+ padding: 4px;
+  
+
+}
+.login-form1 .container-5 .container-8 .col-1 span:hover{
+    background-color: #0000003c;
+    border-radius: 3px;
+    
+}
+.login-form1 .container-5 .container-8 .col-card{
+    padding: 15px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+     grid-column-gap: 1px;
+    grid-row-gap: 13px;
+}
+.login-form1 .container-5 .container-8 .col-card .col-2{
+    width: 250px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.184);
+}
+.login-form1 .container-5 .container-8 .col-card .col-2:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.656);
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s1{
+    width: 100%;
+    height: 65px;
+    border-radius:10px 10px 0 0 ;
+    background-color: rgb(66, 108, 153);
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s2{
+    
+    padding: 30px 10px 10px 10px;
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s2 a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s2 a:hover{
+    text-decoration: underline;
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s1 img{
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px;
+    
+}   
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s2 p{
+    color: #00000093;
+    font-size: 16px;
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s3 {
+    padding: 15px;
+    margin-top: 30px;
+      
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s3 p{
+    font-size: 14px;
+    color: #00000091;
+    padding: 5px 3px;
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s3 button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 255, 0.64);
+    color: rgba(0, 0, 255, 0.649);
+    background-color: #fff;
+    font-size: 17px;
+   
+    
+}
+.login-form1 .container-5 .container-8 .col-card .col-2 .col-s3 button:hover{
+    background-color: rgba(0, 0, 255, 0.059);
+     
+}
+
+/* ][[][][][][][][][][][][][[][][][][][[][[][[[[[[[[[[[[[[[]]]]]]]]]]]]]][[[[[[[[] */
+
+/* //////////////me ** me  me //////////////////////////////////// */
+.login-form2{
+    position: fixed;
+    top: -120%;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+     
+}
+.login-form2.active{
+    top: 0;
+}
+ 
+.login-form2 form{
+    margin: 2rem;
+    padding: 10px;
+    border-radius: .5rem;
+    background: #fff;
+    width: 16rem;
+   
+     margin-bottom: 200px;
+     margin-left: 220px;
+     
+      box-shadow: 1px 1px 10px black;
+}
+.login-form2 #form-close2{
+    
+    float: right;
+    font-size: 20px;
+    color: #040404b5;
+    cursor: pointer;
+}
+ 
+.login-form2 #form-close2:hover{
+    background-color: #0000006a;
+    
+    border-radius: 3px;
+    
+}
+.login-form2 form .me-1{
+    display: flex;
+    padding: 0 0 10px 0;
+
+}
+.login-form2 form .me-1 .me-s1 img{
+    border-radius: 50%;
+    width: 60px;
+}
+.login-form2 form .me-1 .me-s2{
+    margin-left: 10px;
+}
+.login-form2 form .me-1 .me-s2 h2{
+    font-size: 20px;
+}
+.login-form2 form .me-1 .me-s2 h4{
+    color: #0000007b;
+    font-size: 15px;
+}
+.login-form2 form .me-2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.login-form2 form .me-2 button{
+    width: 100%;
+    color: rgba(0, 0, 255, 0.59);
+    border-color: rgba(0, 0, 255, 0.573);
+    border-radius: 30px;
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.login-form2 form .me-2 button:hover{
+    background-color: rgba(0, 0, 255, 0.2);
+}
+.login-form2 form .me-3,
+.login-form2 form .me-4,
+.login-form2 form .me-5{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+.login-form2 form .me-5{
+    border: none;
+}
+.login-form2 form .me-3 a,
+.login-form2 form .me-4 a,
+.login-form2 form .me-5 a{
+    display: block;
+    padding: 6px 0;
+    text-decoration: none;
+    color: #000000aa;
+}
+.login-form2 form .me-3 a:hover,
+.login-form2 form .me-4 a:hover,
+.login-form2 form .me-5 a:hover{
+    text-decoration: underline;
+}
+.login-form2 form .me-3 h2
+,.login-form2 form .me-4 h2{
+    font-size: 20px;
+    padding: 10px 0 0 0;
+}
+
+/* ///////////mmmmmmmmmmmmmmmmmmmm */
+.login-form3{
+    position: absolute;
+    top: -200%;
+    left: 0;
+    height: 1000px;
+    width: 100%;
+    background: #bfbebe;
+   
+    align-items: center;
+    z-index: 10000;
+    position: fixed;
+     
+}
+.login-form3.active{
+    top: 0;
+}
+ 
+ .login-form3 .profile{
+    width: 80%;
+    height: 600px;
+   
+    margin: auto;
+    display: flex;
+ }
+ 
+ .login-form3 .profile .pro-1 .pro-s2{
+    
+    width: 800px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+ }
+ .login-form3 .profile .pro-1 .pro-s2 h2{
+ margin-left: 20px;
+ font-size: 20px;
+ }
+ .login-form3 .profile .pro-1 .pro-s2 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #00000072;
+    }
+    .login-form3 .profile .pro-1 .pro-s2 h3{
+        float: left;
+        font-size: 17px;
+        margin-left: 390px;
+        color: #0000007a;
+        }
+        /* ////////////////////////////////////////////////// */
+ .login-form3 .profile .pro-1 .pro-s3{
+    
+    width: 800px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-fexd{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: #226d77dd;
+    height: 150px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-fexd i{
+    font-size: 20px;
+    float: right;
+    padding: 6px;
+    color: rgba(0, 94, 255, 0.852);
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 20px;
+    
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-fexd img{
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 15px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 i{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 i:hover{
+    background-color: #00000027;
+    border-radius: 50%;
+ }
+
+ .login-form3 .profile .pro-1 .pro-s3 .pro-text{
+    display: flex;
+    padding: 60px 0 0 20px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-text .text-1 span{
+    padding: 2px 15px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 94, 255, 0.775);
+    border-radius: 20px;
+    margin-left: 10px;
+    color: rgba(0, 94, 255, 0.797);
+    font-size: 15px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-text .text-1 span:hover{
+    background-color: rgba(0, 94, 255, 0.245);
+     
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-text .text-2{
+    
+    display: flex;
+    margin-left: 200px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-text .text-2 a{
+    text-decoration: none;
+    color: #000000c6;
+      margin-left: 10px;
+      margin-top: 20px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .pro-text .text-2 a:hover{
+    text-decoration: underline;
+    color: rgba(0, 94, 255, 0.8);
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-p{
+    padding-left: 20px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-p h3{
+    color: #000000cc;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-p p{
+    padding: 6px 0;
+    color: #00000096;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-p a{
+    color: rgba(0, 94, 255, 0.784);
+    text-decoration: none;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-p a:hover{
+    text-decoration: underline;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button{
+    display: flex;
+    
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button button{
+    margin-left: 20px;
+    padding: 6px 10px;
+    color: rgba(0, 94, 255, 0.793);
+    background-color: #fff;
+    border-color: rgba(0, 94, 255, 0.779);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button .btn-1{
+    background-color: rgba(0, 94, 255, 0.779);
+    color: #fff;
+    border: none;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button .btn-1:hover{
+    background-color: rgb(7, 7, 71);
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button .btn-2:hover{
+    background-color: #076be54f;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button .btn-3{
+    border-color: #000000ab;
+    color: #00000066;
+ }
+ .login-form3 .profile .pro-1 .pro-s3 .text-button .btn-3:hover{
+    background-color: #00000017;
+ }
+
+ /* //////////////////////////////////////// */
+ .login-form3 .profile .pro-img{
+    display: block;
+ }
+ .login-form3 .profile .pro-img .pro-22{
+    width: 320px;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 70px;
+    background-color: #ffffff;
+    margin-left: 30px;
+
+ }
+ .login-form3 .profile .pro-22 .pro-s1{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+
+ }
+ .login-form3 .profile .pro-22 .pro-s1 h2{
+    font-size: 17px;
+ }
+ .login-form3 .profile .pro-22 .pro-s1 span{
+    float: right;
+ }
+ .login-form3 .profile .pro-22 .pro-s1 p{
+    padding-top: 5px;
+    color: #00000081;
+ }
+
+ .login-form3 .profile .pro-img img{
+    width: 90%;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+
+/* /////////////////////////////////////////// */
+ /* //////////////// */
+ .mas{ 
+    position: absolute;
+    bottom: -350px;
+    left: 0;
+    height: 400px;
+    width: 300px;
+    background: #ffffff;
+    
+    z-index: 100000;
+    position: fixed;
+    margin-left: 1200px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.614);
+    box-shadow: 1px 1px 10px black;
+    transition: all .5s linear;
+}
+.mas.active{
+    bottom: 0;
+}
+.mas .mas-1{
+    padding: 10px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+}
+.mas .mas-1 i{
+     
+    font-size: 18px;
+    margin-left: 17px;
+  color: #000000a4;
+
+     
+}
+ 
+.mas .mas-1 h3{
+    padding: 0 50px 0 10px;
+     font-size: 18px;
+     margin-top: 2px;
+     color: #000000ca;
+}
+
+.mas .mas-1 img{
+    border-radius: 50%;
+}
+.mas .mas-2{
+    padding: 10px;
+    
+}
+.mas .mas-2 input{
+    width: 93%;
+     
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00000031;
+}
+.mas .mas-2 input:hover{
+    border:2px solid black ;
+}
+.mas .mas-3{
+    padding: 10px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+
+}
+.mas .mas-3:hover{
+    background-color: #00000042;
+}
+.mas .mas-3 .m1 img{
+    border-radius: 50%;
+
+}
+.mas .mas-3 .m2{
+    margin-left: 10px;
+}
+.mas .mas-3 .m2 h3{
+    font-size: 17px;
+    color: #000000ba;
+}
+.mas .mas-3 .m2 p{
+    color: #0000005d;
+}
+.mas .mas-3 .m2 h3 span{
+    font-size: 17px;
+    color: #0000007e;
+    margin-left: 80px;
+}
+/* ////////////responsave////////////// */
+@media(max-width: 528px){
+    .container-4{
+        display: none;
+    }
+    .containerss{
+        display: none;
+    }
+    .navber .links a{
+        display: none;
+    }
+    .navber .links-3{
+        display: none;
+        
+    }
+    .navber .links-3 i{
+        display: none;
+    }
+    .navber .links-2 {
+        display: flex;
+         
+           bottom: 0px;
+           
+          
+         position: fixed;
+         
+         height: 50px;
+         background-color: #ffffff;
+        align-items: center;
+         right: 10px;
+         border-top: 1px solid black ;
+         
+
+    }
+    .navber .links-2 i{
+        width: 66px;
+        margin-left: 15px;
+        margin-right: 1px;
+           
+        
+    }
+  
+    
+    .container{
+        width: 580px;
+        
+        margin-right: 60px;
+    }
+    .login-form1 .container-6,
+    .login-form1 .container-7,
+    .login-form1 .container-8 .col-1
+    {
+        display: none;
+    }
+    .login-form1 .container-5 .container-8 .col-card{
+        padding: 15px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+         grid-column-gap: 1px;
+        grid-row-gap: 13px;
+       
+    }
+}
